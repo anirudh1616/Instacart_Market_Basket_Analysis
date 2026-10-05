@@ -19,15 +19,15 @@ The dataset contains more than three million grocery orders from over 200,000 us
 
 Main Tables
 
-orders — Contains customer order information, including order sequence, day of the week, hour of the day, and time since the previous order.
+orders —Contains customer order information, including order sequence, day of the week, hour of the day, and time since the previous order.
 
-products — Contains product names and their associated aisle and department IDs.
+products —Contains product names and their associated aisle and department IDs.
 
-aisles — Contains aisle names.
+aisles—Contains aisle names.
 
-departments — Contains department names.
+departments—Contains department names.
 
-order_products__prior — Contains products purchased in customers’ previous orders.
+order_products_prior — Contains products purchased in customers’ previous orders.
 
-order_products__train — Contains products purchased in the training orders and whether each product was reordered.
+order_products_train — Contains products purchased in the training orders and whether each product was reordered.
 
